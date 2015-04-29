@@ -357,7 +357,7 @@ OPTIMIZATION_FLAGS = -mtune=cortex-a7 -mfpu=neon \
 CFLAGS_MODULE   = $(OPTIMIZATION_FLAGS)
 AFLAGS_MODULE   = $(OPTIMIZATION_FLAGS)
 LDFLAGS_MODULE  =
-CFLAGS_KERNEL	= $(OPTIMIZATION_FLAGS) -Wno-maybe-uninitialized
+CFLAGS_KERNEL	= $(OPTIMIZATION_FLAGS) -Wno-maybe-uninitialized -Wno-array-bounds
 AFLAGS_KERNEL	= $(OPTIMIZATION_FLAGS)
 CFLAGS_GCOV	= -fprofile-arcs -ftest-coverage
 
