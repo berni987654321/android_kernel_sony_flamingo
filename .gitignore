@@ -36,6 +36,28 @@ modules.builtin
 boot.img
 output/working/extracted/zImage
 output/zip/META-INF/com/google/android/aroma/changelogs.txt
+scripts/basic/.fixdep.cmd
+scripts/basic/fixdep
+scripts/kconfig/.conf.o.cmd
+scripts/kconfig/.mconf.o.cmd
+scripts/kconfig/.zconf.tab.o.cmd
+scripts/kconfig/conf
+scripts/kconfig/conf.o
+scripts/kconfig/lxdialog/.checklist.o.cmd
+scripts/kconfig/lxdialog/.inputbox.o.cmd
+scripts/kconfig/lxdialog/.menubox.o.cmd
+scripts/kconfig/lxdialog/.textbox.o.cmd
+scripts/kconfig/lxdialog/.util.o.cmd
+scripts/kconfig/lxdialog/.yesno.o.cmd
+scripts/kconfig/lxdialog/checklist.o
+scripts/kconfig/lxdialog/inputbox.o
+scripts/kconfig/lxdialog/menubox.o
+scripts/kconfig/lxdialog/textbox.o
+scripts/kconfig/lxdialog/util.o
+scripts/kconfig/lxdialog/yesno.o
+scripts/kconfig/mconf
+scripts/kconfig/mconf.o
+scripts/kconfig/zconf.tab.o
 
 #
 # Top-level generic files
